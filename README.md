@@ -1,6 +1,8 @@
 # cvpilot-skill
 
-A [Claude Code](https://claude.com/claude-code) skill toolkit for job hunting — turns a job posting and your CV into a decoded JD, an evidence-based match analysis, a tailored CV and cover letter, and CV-grounded behavioral/technical interview prep. English only, no fabricated content, no inflated scores.
+An AI-powered application lifecycle system that turns every job application into reusable knowledge — turns a job posting and your CV into a decoded JD, an evidence-based match analysis, a tailored CV and cover letter, and CV-grounded behavioral/technical interview prep. No fabricated content, no inflated scores.
+
+
 
 It's a from-scratch and rebuild of the workflow in [CVpilot](https://github.com/zhiyuanMA/CVpilot) *(Chrome extension)*.
 

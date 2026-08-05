@@ -2,7 +2,7 @@
 
 A [Claude Code](https://claude.com/claude-code) skill toolkit for job hunting — turns a job posting and your CV into a decoded JD, an evidence-based match analysis, a tailored CV and cover letter, and CV-grounded behavioral/technical interview prep. English only, no fabricated content, no inflated scores.
 
-It's a from-scratch, English-language rebuild of the workflow in [CVpilot](https://github.com/zhiyuanMA/CVpilot) *(Chrome extension)* and [offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill), combining CVpilot's strict evidence-based CV/JD matching discipline with offer-toolkit-skill's staged skill architecture — see [Credits](#credits).
+It's a from-scratch and rebuild of the workflow in [CVpilot](https://github.com/zhiyuanMA/CVpilot) *(Chrome extension)*.
 
 ## What it does
 

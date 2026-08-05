@@ -14,10 +14,20 @@ It's a from-scratch and rebuild of the workflow in [CVpilot](https://github.com/
 2. **Match Analysis** — every JD requirement classified as `match` / `should_match` / `gaps` against your CV, using verbatim JD quoting and strict evidence rules (no credit for skills your CV doesn't actually show). Converts to a weighted, hard-capped numeric score and a `strong_candidate` / `needs_tailoring` / `not_recommended` verdict — never inflated.
 3. **Tailored CV + Cover Letter** — an actual rewritten CV (not just suggestions), with every change shown as a diff back to the original, plus a 200–300 word cover letter. Never fabricates an achievement, a number, or a skill you don't have.
 
+<img src="screenshots/JD%20decode.jpg" width="420" alt="JD Decode output — five layers translating a job posting into what the hiring manager actually wants"> <img src="screenshots/Match%20analysis.jpg" width="420" alt="Match Analysis output — match/should_match/gaps breakdown, weighted score, gap tiers, risk, and recommendation">
+
+*JD Decode and Match Analysis from `application.html`.*
+
 ### `interview-prep-skill` — persistent, reused across every application
 
 4. **Behavioral prep** — mines real STAR stories through a guided, one-question-at-a-time conversation, tags them by competency, and generates a JD-specific Top 20 questions with full STAR prep for the Top 5.
 5. **Technical prep** — mines technical decision narratives (context → options considered → trade-offs → outcome → reflection) from your real projects, calibrated to the seniority level (Junior/Intermediate/Senior/Staff) the JD is actually hiring for.
+
+<img src="screenshots/BQ%20top%2020%20question.jpg" width="420" alt="Behavioral prep Top 20 questions — grouped by category, each tied to a specific JD signal, with story coverage marked"> <img src="screenshots/Tech%20must%20practice.jpg" width="420" alt="Technical prep Must-Practice section — full Context/Decision/Options/Reasoning/Outcome/Reflection narratives">
+
+<img src="screenshots/Tech%20question.jpg" width="420" alt="Technical prep question list by domain and honest gap list">
+
+*Behavioral and technical prep from `behavioral-prep.html` / `technical-prep.html` — note the honest gap flags rather than generic filler questions.*
 
 Both mining engines default to **comprehensive** mode on a thin story bank (mine broadly across your whole background) and **targeted** mode once the bank has solid coverage (mine just the gap) — a bank built one JD-gap at a time never ends up covering what you actually have to offer.
 

@@ -1,0 +1,6 @@
+# Personal story/narrative data — not meant to be shared or committed.
+# Keep the index and templates tracked; ignore everything else in this folder.
+*.md
+!_index.md
+!_story-template.md
+!_technical-template.md

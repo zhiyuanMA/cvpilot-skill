@@ -1,0 +1,7 @@
+# OS/editor cruft
+.DS_Store
+.vscode/
+*.swp
+
+# Personal story-bank entries are excluded at the folder level —
+# see interview-prep-skill/story-bank/.gitignore
